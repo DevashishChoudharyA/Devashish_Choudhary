@@ -9,8 +9,8 @@ import ScrollToTop from "../ScrollToTop/ScrollToTop";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/DevashishChoudharyA/Devashish-Portfolio/blob/main/Devashish_Choudhary_Resume.pdf";
-
+  "https://github.com/DevashishChoudharyA/Devashish_Choudhary/blob/904154073a846ea0adba1390e49fb298ea763284/src/Assets/Devashish_Choudhary_Resume_dca.pdf";
+  
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
@@ -24,7 +24,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://github.com/DevashishChoudharyA/Devashish-Portfolio/blob/main/Devashish_Choudhary_Resume.pdf"
+            href="https://raw.githubusercontent.com/rahuljha4171/Portfolio-Website/c35fd111fd8c2beb9e2c243905aea24503bda9b3/src/Assets/Rahul%20Jha%20Resume.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -42,7 +42,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://github.com/DevashishChoudharyA/Devashish-Portfolio/blob/main/Devashish_Choudhary_Resume.pdf"
+            href="https://raw.githubusercontent.com/rahuljha4171/Portfolio-Website/c35fd111fd8c2beb9e2c243905aea24503bda9b3/src/Assets/Rahul%20Jha%20Resume.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
