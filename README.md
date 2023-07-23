@@ -1,6 +1,6 @@
 <h2 align="center">
-  Rahul Jha | Portfolio Website<br/>
-  <a href="https://www.rahuljha.tech/" target="_blank">rahuljha.tech</a>
+  Devashish Choudhary | Portfolio Website<br/>
+  <a href="https://devashish-choudhary.vercel.app/" target="_blank">devashishchoudhary.tech</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme_img.png" />
