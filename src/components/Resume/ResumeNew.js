@@ -6,11 +6,13 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "./resume.css";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
+//import corsProxyUrl from "./corsProxy"; // Import the CORS proxy URL
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/DevashishChoudharyA/Devashish_Choudhary/blob/904154073a846ea0adba1390e49fb298ea763284/src/Assets/Devashish_Choudhary_Resume_dca.pdf";
-  
+  "https://raw.githubusercontent.com/DevashishChoudharyA/Devashish_Choudhary/main/src/Assets/Devashish%20Choudhary%20Resume.pdf";
+
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
@@ -24,7 +26,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://raw.githubusercontent.com/rahuljha4171/Portfolio-Website/c35fd111fd8c2beb9e2c243905aea24503bda9b3/src/Assets/Rahul%20Jha%20Resume.pdf"
+            href="https://raw.githubusercontent.com/DevashishChoudharyA/Devashish_Choudhary/main/src/Assets/Devashish%20Choudhary%20Resume.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -38,11 +40,12 @@ function ResumeNew() {
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
+        
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://raw.githubusercontent.com/rahuljha4171/Portfolio-Website/c35fd111fd8c2beb9e2c243905aea24503bda9b3/src/Assets/Rahul%20Jha%20Resume.pdf"
+            href="https://raw.githubusercontent.com/DevashishChoudharyA/Devashish_Choudhary/main/src/Assets/Devashish%20Choudhary%20Resume.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -57,3 +60,5 @@ function ResumeNew() {
 }
 
 export default ResumeNew;
+// https://raw.githubusercontent.com/DevashishChoudharyA/Devashish_Choudhary//src/Assets/Devashish%20Choudhary%20Resume.pdf
+// https://github.com/DevashishChoudharyA/Devashish_Choudhary/blob/b06ee7e2b05ee329cea7ad83d8c8d3201e4f20d7/src/Assets/Devashish%20Choudhary%20Resume.pdf

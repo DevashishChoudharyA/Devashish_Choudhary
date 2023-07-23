@@ -21,6 +21,7 @@ function Home2() {
             </h1>
             <p className="home-about-body justify" data-aos="fade-up">
               <br />
+              <div className="text-center justify-center">
 A Software Engineer – an innovative, creative, and resourceful problem solver with a <br />
 passion 
 for building cutting-edge solutions! 🎯 With a love for coding that runs deep <br />in me, I have 
@@ -51,7 +52,7 @@ you've found <br /> the one! &nbsp;Together, let's &nbsp;embark &nbsp;on an &nbs
              
               <br />
               <br />
-              
+              </div>
             </p>
           </Col>
           <Col md={4} className="myAvtar center">
