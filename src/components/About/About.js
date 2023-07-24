@@ -34,7 +34,7 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "55px", paddingBottom: "50px"}}
             className="about-img"
           >
             <img

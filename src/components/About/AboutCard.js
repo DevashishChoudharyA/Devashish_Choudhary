@@ -23,6 +23,9 @@ function AboutCard() {
             <li className="about-activity">
               <AiOutlineArrowRight /> Traveling
             </li>
+            <li className="about-activity">
+              <AiOutlineArrowRight /> Skating
+            </li>
           </ul>
         </blockquote>
       </Card.Body>
